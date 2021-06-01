@@ -1,0 +1,8 @@
+discord.py
+git+https://github.com/theskumar/python-dotenv
+discord
+dnspython
+async-timeout
+boto
+aiohttp
+asyncio
