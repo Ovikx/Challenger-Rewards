@@ -1,2 +1,2 @@
 # Challenger Rewards Bot
-This Discord bot is used to run the Challenger rewards program. The program rewards free Challenger Premium (a monthly subscription) to users who have the Challenger bot's invite link in their custom status. Feel free to use the code to run your own rewards program.
+This Discord bot is used to run the Challenger rewards program. The program rewards free Challenger Premium (a monthly subscription role) to users who have the Challenger bot's invite link in their custom status. Feel free to use the code to run your own rewards program.
