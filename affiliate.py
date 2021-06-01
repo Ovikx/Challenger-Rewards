@@ -62,5 +62,4 @@ async def help(ctx):
     embed.add_field(name='Suggest links!', value=f'If you want to add a link to the list above, please DM `{bot.get_user(ovikID)}`.')
     await ctx.send(embed=embed)
 
-
 bot.run(token)
