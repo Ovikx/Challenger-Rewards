@@ -1,6 +1,5 @@
 import discord
 from discord.ext import tasks, commands
-import discord.utils
 import os
 from dotenv import load_dotenv
 from boto.s3.connection import S3Connection
