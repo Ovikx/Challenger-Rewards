@@ -20,7 +20,7 @@ except:
 
 token = os.getenv('AFFILIATE_BOT_TOKEN')
 
-bot = commands.Bot(command_prefix='a.', case_insensitive=True, chunk_guilds_at_startup=False, intents=intents)
+bot = commands.Bot(command_prefix='r.', case_insensitive=True, chunk_guilds_at_startup=False, intents=intents)
 bot.remove_command('help')
 ovikID = 219966414486896640
 affiliate_links = [
@@ -32,7 +32,7 @@ affiliate_links = [
 @bot.event
 async def on_ready():
     print(f"{bot.user} logged into {len(bot.guilds)} servers")
-    game = discord.Game(f'a.help | Rewarding supporters!')
+    game = discord.Game(f'r.help | Rewarding supporters!')
     await bot.change_presence(status=discord.Status.online, activity=game)
     guild = bot.get_guild(574688313919799327)
     await guild.chunk()
