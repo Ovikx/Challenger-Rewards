@@ -30,6 +30,8 @@ links = [
         'https://top.gg/bot/576181953372356638',
         'https://dsc.gg/challenger',
         'https://bots.discordlabs.org/bot/challenger',
+        'https://discord.gg/53BC4n2',
+        'https://discord.com/invite/53BC4n2'
     ]
 
 @bot.event
