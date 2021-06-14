@@ -18,7 +18,7 @@ except:
     print('loaded local env vars')
 
 token = os.getenv('AFFILIATE_BOT_TOKEN')
-bot = commands.Bot(command_prefix='r.', case_insensitive=True, chunk_guilds_at_startup=False, intents=intents)
+bot = commands.Bot(command_prefix='r.', case_insensitive=True, chunk_guilds_at_startup=True, intents=intents)
 bot.remove_command('help')
 
 owner_id = 219966414486896640
